@@ -1,0 +1,37 @@
+CONTROL STRUCTURES:
+    (iterative statemets)
+Types:
+1.conditional control structures:
+		ex: for,while,and do while loop.
+2) Unconditional control structure:
+		ex:break and continue.
+3)Unconditional uncontrolled structure:
+		ex:goto.
+
+For loop:it is used whenever we know exact number of iterations
+	for(intilization;condition:increment/decrement)
+	statement;
+	                                          --or--
+	for(intialization;condition;increment/decrement)
+	{
+	  statement1;
+	  statement2;
+	  ----------------
+	  statement n;
+	}
+
+While loop:it is used  whenever we don't know exact number of iterations.
+	while(condition)
+	{
+	      //statements
+	}
+	entry level checker:
+
+Do while: It is used for represent "menu driven type".
+	do
+	{
+	  set of statements;
+	}while(condition);
+	exit  level checker.
+by default first cycle is executed without verifying its condition. 
+It is used for the purpose of "data structure".
